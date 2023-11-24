@@ -1,0 +1,87 @@
+.content {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+
+ .skill1 {
+    height:40%;
+    margin: 1% 20% 1% 0%;
+    border-radius: 0px 10px 10px 0px;
+    display:flex;
+    border-bottom: solid white;
+ }
+
+.ProgramText {
+    width:50%;
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+}
+
+.ProgramImg {
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    justify-content:center;
+}
+
+.PrgImg > img{
+    width:100%;
+    padding:10%;
+}
+
+ .skill2 {
+    height:30%;
+    margin: 1% 0% 1% 20%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction:row-reverse;
+    text-align:right;
+    border-bottom: solid white;
+ }
+
+ .osText {
+    width:80%;
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+
+ }
+
+ .osImg {
+    width:20%;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+ }
+
+ .OsImg > img{
+    margin-right:20%;
+    padding: 5% 10% 10% 10%;
+    width:60%;
+    left:0;
+    object-fit: cover;
+}
+
+ .skill3 {
+    height:30%;
+    margin: 1% 20% 1% 0%;
+    border-radius: 0px 10px 10px 0px;
+    border-bottom: solid white;
+ }
+
+.TextContent {
+    width:100%;
+    display:flex;
+}
+
+.HdText {
+    width:80%;
+}
+
+.edge {
+    width:20%;
+    display:flex;
+    justify-content: flex-end;
+}

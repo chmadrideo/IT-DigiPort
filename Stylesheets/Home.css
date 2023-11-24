@@ -1,0 +1,104 @@
+.slider-container {
+    height:100%;
+    width:50%;
+    position:relative;
+    border-radius: 20px;
+    opacity:100%;
+}
+
+.slider-container * {
+    border-radius: 20px;
+}
+
+.slider-container > div {
+    padding:0;
+    margin:0;
+    height:70%;
+}
+
+.slide {
+    display:none;
+}
+
+.slide > img {
+    display:block;
+    width:100%;
+    height:90%;
+    object-fit: cover;
+    border-bottom: solid white;
+}
+
+.slider-button {
+    position:absolute;
+    z-index:2;
+    background:none;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    padding: 0 .5rem;
+    background-color: rgba(0 ,0 , 0, .1);
+    height:63%;
+}
+
+.slider-button:hover,
+.slider-button:focus {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.prev {  
+    left: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+.next {  
+    right: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+#extraTxt {
+    background-color: rgba(0,0,0,0.6);
+    height:27%;
+}
+
+ .item-1{
+    height:97%;
+    color:white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px 10% 0px 10%;
+    display:flex;
+    bottom:0;
+ }
+
+.intro-text {
+    margin-left: 20px;
+    border-radius: 10px 10px 0px 0px;
+    width:50%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 3%;
+    display:flex;
+    flex-direction: column;
+}
+
+.ProfPhoto {
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom:2%;
+}
+
+#profImg {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50% 50% 50% 50%;
+    align-self:center;
+    border: solid white;
+    object-fit: cover;
+}
